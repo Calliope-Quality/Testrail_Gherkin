@@ -60,28 +60,28 @@ Testrail_Gherkin/
 ## Setup Instructions
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-repo/gherkinizer.git
-   cd gherkinizer
-
+```bash
+git clone https://github.com/your-repo/gherkinizer.git
+cd gherkinizer
+```
 	2.	Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 
 	3.	Configure config.json
 Create or edit config/config.json with your OpenAI API key and test case file path:
-
+```json
 {
     "OPENAI_API_KEY": "your-openai-api-key",
     "TEST_CASE_FILE": "/absolute/path/to/your/test_case_file.xlsx"
 }
-
+```
 Usage
 	1.	Run the Main Script
-
+```bash
 python src/main.py
-
+```
 
 	2.	Output Files
 	•	Feature Files:
