@@ -40,7 +40,7 @@ This project streamlines Behavior-Driven Development (BDD) workflows by automati
 ---
 
 ## Project Structure
-
+```
 Testrail_Gherkin/
 ├── config/
 │   └── config.json               # Configuration file (OpenAI API key and test case file path)
@@ -54,7 +54,7 @@ Testrail_Gherkin/
 ├── tests/                        # Test case Excel files
 ├── .env                          # Environment variables (optional, for local use)
 └── README.md                     # Project documentation
-
+```
 ---
 
 ## Setup Instructions
